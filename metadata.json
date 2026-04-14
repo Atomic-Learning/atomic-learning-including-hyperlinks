@@ -1,22 +1,19 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Atomic Learning: Including Hyperlinks",
+    "slug": "atomic-learning-including-hyperlinks",
+    "description": "A guide of how to include hyperlinks in content pages in the Atomic Learning platform include formatting and best-practice.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "atomic-learning"
     ],
-    "duration": 0,
+    "duration": 3,
     "prerequisites": [
-        "",
-        ""
+        "atomic-learning-content-file",
+        "html-hyperlink-new-tab"
     ],
     "related": [
-        "",
-        ""
+        "atomic-learning-metadata-file"
     ]
 }

@@ -1,1 +1,14 @@
+<p>Sometimes you might want to include a hyperlink to an external resource in the <code>content.html</code> file of a piece of content on the Atomic Learning Platform. This can be achieved using the HTML anchor tag (<code>&lt;a&gt;</code>) with the <code>href</code> attribute. You you should also specify the attributes <code>target="_blank"</code> and <code>rel="noopener noreferrer"</code> to ensure the link safely opens in a new tab. The following is an example:</p>
 
+<pre><code class="language-html">&lt;a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer"&gt;Imperial&lt;/a&gt;</code></pre>
+
+<p>This will render as "<a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer">Imperial</a>"</p>
+
+<h2>Referencing Internal Pages</h2>
+
+<p>In general, you should not use the <code>&lt;a&gt;</code> tag to reference other content pages. Instead, you should consider the relationship of the two pages:</p>
+
+<ul>
+    <li>If the other page is required to understand the current page, you should note it as a prerequisite of the page in the <code>metadata.json</code> file. This means you can assume a reader is familiar with the content of that page. It will be automatically linked at the bottom of the page on the website, allowing the reader to revisit it if they wish.</li>
+    <li>If the other page is not required to understand the current page, but may provide additional context or is a suggestion of what the reader may want to learn about next, it should be included as a related piece of content in the <code>metadata.json</code> file. This will automatically create a link at the bottom of the page the reader can follow if they wish.</li>
+</ul>
