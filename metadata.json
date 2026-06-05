@@ -8,12 +8,11 @@
     "tags": [
         "atomic-learning"
     ],
-    "duration": 3,
+    "duration": 2,
     "prerequisites": [
         "atomic-learning-content-file",
-        "html-hyperlink-new-tab"
+        "atomic-learning-metadata-file"
     ],
     "related": [
-        "atomic-learning-metadata-file"
     ]
 }
