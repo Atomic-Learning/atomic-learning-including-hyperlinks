@@ -4,7 +4,7 @@ Sometimes you might want to include a hyperlink to an external resource in the `
 [Imperial](https://www.imperial.ac.uk/)
 ```
 
-This will render as [Imperial](https://www.imperial.ac.uk/)".
+This will render as "[Imperial](https://www.imperial.ac.uk/)".
 
 # Referencing Internal Pages
 
